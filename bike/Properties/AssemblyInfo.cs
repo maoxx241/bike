@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("bike")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("bike project for lab01_2e")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Qi Mao")]
 [assembly: AssemblyProduct("bike")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright ©  2021 Qi Mao")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

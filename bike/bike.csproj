@@ -162,6 +162,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigService.cs" />
+    <Compile Include="ManagersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagersForm.Designer.cs">
+      <DependentUpon>ManagersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="OperatorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +206,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ManagersForm.resx">
+      <DependentUpon>ManagersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OperatorForm.resx">
       <DependentUpon>OperatorForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -228,5 +228,16 @@ namespace bike
             this.adp = new SQLiteDataAdapter("SELECT * from bike", this.SQLiteConnection);
             this.adp.Fill(this.dt);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Trim() == "123456")
+            {
+                ManagersForm form = new ManagersForm();
+                form.BringToFront();
+                form.Show();
+
+            }
+        }
     }
 }
