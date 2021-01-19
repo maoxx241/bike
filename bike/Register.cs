@@ -127,5 +127,12 @@ namespace bike
 
         }
 
+        private void agebox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < 48 || e.KeyChar > 57) && e.KeyChar != 8 && e.KeyChar != 13 && e.KeyChar != 46)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

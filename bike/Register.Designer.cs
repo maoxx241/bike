@@ -163,6 +163,7 @@ namespace bike
             this.agebox.Name = "agebox";
             this.agebox.Size = new System.Drawing.Size(100, 20);
             this.agebox.TabIndex = 12;
+            this.agebox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.agebox_KeyPress);
             // 
             // adminbox
             // 
