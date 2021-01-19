@@ -172,6 +172,7 @@ namespace bike
             this.adminbox.Size = new System.Drawing.Size(100, 20);
             this.adminbox.TabIndex = 13;
             this.adminbox.UseSystemPasswordChar = true;
+            this.adminbox.TextChanged += new System.EventHandler(this.adminbox_TextChanged);
             // 
             // label7
             // 

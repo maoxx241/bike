@@ -21,10 +21,15 @@ namespace bike
         private void button1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process process = new System.Diagnostics.Process();
-            process.StartInfo.FileName = "python";
-            process.StartInfo.UseShellExecute = false;
-            process.StartInfo.CreateNoWindow = true;
+            process.StartInfo.FileName = "cmd.exe";
+            process.StartInfo.UseShellExecute = true;
+            process.StartInfo.CreateNoWindow = false;
             process.Start();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

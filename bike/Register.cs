@@ -134,5 +134,10 @@ namespace bike
                 e.Handled = true;
             }
         }
+
+        private void adminbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
