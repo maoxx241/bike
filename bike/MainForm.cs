@@ -230,10 +230,10 @@ namespace bike
                 SQLiteDataReader rdr2 = cmd1.ExecuteReader();
                 double la = 0;
                 double lo = 0;
-                while (rdr.Read())
+                while (rdr2.Read())
                 {
-                    la = rdr.GetDouble(2);
-                    lo = rdr.GetDouble(3);
+                    la = rdr2.GetDouble(1);
+                    lo = rdr2.GetDouble(2);
                 }
 
                 var cmd2 = new SQLiteCommand(SQLiteConnection);
